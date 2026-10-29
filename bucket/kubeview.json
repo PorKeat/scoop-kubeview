@@ -1,0 +1,14 @@
+{
+  "version": "0.1.2",
+  "description": "Local-first Kubernetes desktop IDE with live telemetry, logs, exec, and GitOps drift.",
+  "homepage": "https://kubeview.sengporkeat.com",
+  "license": "BSL-1.1",
+  "url": "https://kubeview.sengporkeat.com/downloads/KubeView_0.1.2_x64-setup.exe",
+  "hash": "1313a8ca805ba1e6ba87b43d08e277ca05bb674949a593dd2b4f9b3fdddd2958",
+  "installer": {
+    "script": [
+      "$installer = Get-ChildItem -Path $dir -Filter '*.exe' | Select-Object -First 1",
+      "Start-Process -FilePath $installer.FullName -ArgumentList '/S' -Wait"
+    ]
+  }
+}
