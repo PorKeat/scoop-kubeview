@@ -3,7 +3,7 @@
   "description": "Local-first Kubernetes desktop IDE with live telemetry, logs, exec, and GitOps drift.",
   "homepage": "https://kubeview.sengporkeat.com",
   "license": "Apache-2.0",
-  "url": "https://kubeview.sengporkeat.com/downloads/KubeView_0.3.0_x64-setup.exe",
+  "url": "https://github.com/PorKeat/KubeView/releases/download/v0.3.0/KubeView_0.3.0_x64-setup.exe",
   "hash": "97444eb29d7bd35dc1ceb15dc95036db009fdc5c2d3130fa3217e3626d1da0cd",
   "installer": {
     "script": [
