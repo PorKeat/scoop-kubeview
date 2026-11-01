@@ -1,10 +1,10 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Local-first Kubernetes desktop IDE with live telemetry, logs, exec, and GitOps drift.",
   "homepage": "https://kubeview.sengporkeat.com",
   "license": "Apache-2.0",
-  "url": "https://github.com/PorKeat/KubeView/releases/download/v0.3.2/KubeView_0.3.2_x64-setup.exe",
-  "hash": "b82979c99aad32c8cddb49714fe1bbcc9c73d9735d9fac5ccfa192f878450c03",
+  "url": "https://github.com/PorKeat/KubeView/releases/download/v0.3.3/KubeView_0.3.3_x64-setup.exe",
+  "hash": "598d2b21ee31a9d37562675bd136f3ce496b7c514fab80ade297f3c3e5542205",
   "installer": {
     "script": [
       "$installer = Get-ChildItem -Path $dir -Filter '*.exe' | Select-Object -First 1",
